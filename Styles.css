@@ -1,0 +1,104 @@
+div {font-size: 14pt;
+
+	display: float;
+	font-family: Georgia;
+}
+
+#d3 {
+	display: inline-block;
+	position: relative;
+	top: -100px; 
+	text-align: left;
+	
+	
+}
+
+#big_table {
+	background-repeat: no-repeat;
+}
+
+#t4 {
+	background-color: black;
+	width: 30%;
+}
+
+.h3-little {
+	font-size = 20px;
+}
+
+.mew {
+	top: 30px;
+	display: inline;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%; /*максимальная ширина может иметь другое значение*/
+
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 90%; /*максимальная ширина может иметь другое значение*/
+
+  display: float;
+}
+
+
+table {
+display: inline-block;
+// border-collapse:collapse;
+//border: 1px solid grey;
+
+}
+#t2 {
+	border-bottom: 1px solid grey;
+}
+
+#t1 {
+	background-color: black;
+}
+
+
+#p1 {
+	font-size: 24px;
+	text-align: left;
+}
+
+#d1 {
+		margin-left: 3%;
+		margin-right: 3%;
+}
+
+#d2 {
+	 font-size: 16pt;
+}
+
+p {
+	font-size: 24px;
+	text-align: center;
+	font-family: Georgia;
+}
+
+#filters{
+		background-color:#E2E2E2;
+		width:200px;
+		float:left;
+		
+	}
+
+	#maket, #elements{
+		display: flex;
+	}	
+	
+	a {
+		font-family: Georgia;
+	}
+
+#margin {
+	margin: 10%;
+
+
+}

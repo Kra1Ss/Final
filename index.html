@@ -25,52 +25,60 @@
 </header>
 
 
+
+
 <div class="main"> <div class="container">
 	
-<table cellspacing="5" cellpadding="10" width = 100%>
-	  <tr>
-		<td width = 15% height = 50px bgcolor = "1ac7c3"> <p> <font color = "white"> In recent news </p> </td> 
-		<td width = 45%> </td> 
-		<td width = 15% bgcolor = "1ac7c3"> <p> <font color = "white"> Popular </p> </td>
-		<td width = 10%> </td>
-	  </tr> 
-</table>
+
 
 	
 <table cellspacing="5" cellpadding="10"  width = 60%>
+	<tr> 
+		<td> <div class = "blue"> <h3> <font size = 5 color = "white"> In recent news </h3> </div> </td>
+	</tr>
     <tr >
        <td width = 70%> <h3> <font color = "213cc0" size = 5px> Software </h3> </td>	   
     </tr>
 	<tr>
-	<td width = 70% id = "t2">
-			<p id = "p1"> <b> DeltaMaker – The new kid on the block An Elegant 3D Printer and new wicked ass thing </b> <p>
-			<img src = "Images/post1.jpg" alt="" width = 100%> <br>
-			<center> <h3> <font size = 3> <i> Product were inspired by  Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits andd best practies of creative leaders.</i> </h3>  <p > <font size = 3> <i> The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own... </i> </center></td>
+	<td width = 70% class = "bottom">
+			<p id = "p1"> <b> DeltaMaker – The new kid on the block An Elegant 3D Printer and new wicked ass thing </b> </p>
+			<img src = "images/post1.jpg" alt="" width = 100%> <br>
+			<center> <p> <font size = 4> <i> Product were inspired by  Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits andd best practies of creative leaders. The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own... </p></i> </center></td>
 	</tr>
 </table>
 
 <table cellspacing="5" cellpadding="5"  width = 39%  valign = "top">
+	<tr> 
+		<td> <div id = "blue2"> <h3> <font size = 5 color = "white"> Popular </h3> </div> </td>
+	</tr>
     <tr>
-      <td id = "t2"> <p> <font size = 3> <b> DeltaMaker - The new kid on block An Elegant 3D printer </b> <p> 
-				<h3> <font size = 3> <center> A new cheap ass 3D printer worth cheking out </center> </h3> 
-				<h3> <font size = 3> <center> <font color = " grey"> 1 Day Ago </center> </h3> </td>
+      <td> <div id="filters">
+				<br>О чём: <br>
+				<label><input type = "checkbox" name = "genre" value = "Принтеры">Принтеры</label><br>
+				<label><input type = "checkbox" name = "genre" value = "Файлы">Файлы для печати</label><br>
+				<label><input type = "checkbox" name = "genre" value = "Софт">Софт</label><br>
+				<br>Дата поста: <br>
+				<label><input type="checkbox" name="year" value="1-2">1-2 Дня назад</label><br>
+				<label><input type="checkbox" name="year" value="3-4">3-4 Дня назад</label><br>
+				<label><input type="checkbox" name="year" value="5-6">5-6 Дней назад</label><br>
+				</div> </td>
     </tr>
     <tr>  
-		<td id = "t2"> <p> <font size = 3> <b> Software Review: Autodesk Inventor Fusion for Mac </b> </p> 
-				<h3> <font size = 3> <center> 3D Printing, 3D Software </center> </h3>
-				<h3> <font size = 3> <center> <font color = " grey"> 2 Days Ago </center> </h3>
+		<td class = "t2"> <article data-genre = "Софт" data-year="1-2" class = "bottom"> <p> <font size = 5> <center> <b> Новый софт для MACов </b> </p> 
+				<h3>  И почему Apple до сих пор нехорошие люди  </h3>
+				<h3>  <font color = " grey"> 2 Дня назад </center> </article> </h3>
         </td>
 	</tr>
 	<tr>  
-		<td id = "t2"> <p> <font size = 3> <b> DeltaMaker - The new kid on block An Elegant 3D printer </b> <p> 
-				<h3> <font size = 3> <center> A new cheap ass 3D printer worth cheking out </center> </h3> 
-				<h3> <font size = 3> <center> <font color = " grey"> 4 Days Ago </center> </h3>
-				</td>
+		<td class = "t2"> <article data-genre = "Принтеры" data-year="3-4" class = "bottom"> <p> <font size = 5> <center> <b> Освещаем выход нового 3Д Принтера </b> </p> 
+				<h3>  Нужен он, как всегда, почти никому  </h3>
+				<h3>  <font color = " grey"> 3 Дня назад </center> </article> </h3>
+        </td>
 	</tr>
 	<tr>  
-		<td id = "t2"> <p> <font size = 3> <b> Software Review: Autodesk Inventor Fusion for Mac </b> </p> 
-				<h3> <font size = 3> <center> 3D Printing, 3D Software </center> </h3> 
-				<h3> <font size = 3> <center> <font color = " grey"> 6 Days Ago </center> </h3>
+		<td class = "t2"> <article data-genre = "Файлы" data-year="5-6" class = "bottom"> <p> <font size = 5> <center> <b> STL для печати Демонов Хаоса </b> </p> 
+				<h3>  Собираем армию за 15к, а не за 100  </h3>
+				<h3>  <font color = " grey"> 6 Дней назад </center> </article> </h3>
         </td>
 	</tr>
 </table>
@@ -81,45 +89,45 @@
        <td width = 70%> <h3> <font color = "213cc0" size = 5px> Printers </h3> </td>	   
     </tr>
 	<tr>
-	<td width = 70% id = "t2"> 
+	<td width = 70% class = "bottom"> 
 					<p id = "p1"> <b> Nokia offering customers printable STL phone cases for the Lumia 820 and things </b> <p>  
-					<img src = "Images/post2.png" alt="" width = 100%> <br>
+					<img src = "images/post2.png" alt="" width = 100%> <br>
 			<center> <h3 id = "d1"> <font size = 3> <i> This week Nokia announced it is giving away files for printable case for it's new Lumia 820 range. This week Nokia announced it is giving away files for printable case for it's new Lumia 820 range. This week Nokia announced it is giving away files for printable case for it's new Lumia 820 range. This week Nokia announced it is giving away files for printable case for it's new Lumia 820 range. </i> </h3> </td>
 	</tr>
 </table>
 
-<table  width = 39% >
+<table  width = 39%>
     <tr>
       <td id = "t1"> <h3 id = "d2"> <font color = "white"> Editors Pick </h3> </td>
     </tr>
     <tr> 
 		
-		<td> <img src = "Images/post3.png alt="">  </td> 
+		<td> <img src = "images/post3.png" alt="">  </td> 
 		<td>  <h3> <font size = 3> MarkerBot Announces the ‘Replicator 2x’  For the Experimental   </h3> <br> <h3>  <font size = 3 color = " grey"> 2 Days Ago  </h3>  </td>
 	</tr>
 	<tr>  
-		<td> <img src = "Images/post4.png" alt=""> </td>
+		<td> <img src = "images/post4.png" alt=""> </td>
 		<td>  <h3> <font size = 3>  MarkerBot Announces the ‘Replicator 2x’  For the Experimental   </h3> <br> <h3>  <font size = 3 color = " grey"> 4 Days Ago  </h3>  </td>
 	</tr>
 	<tr>  
-		<td> <img src = "Images/post5.png" alt=""> </td>
+		<td> <img src = "images/post5.png" alt=""> </td>
 		<td>  <h3> <font size = 3> MarkerBot Announces the ‘Replicator 2x’  For the Experimental   </h3> <br> <h3>  <font size = 3 color = " grey"> 1 Days Ago  </h3>  </td>
 	</tr>
 	<tr>  
-		<td> <img src = "Images/post6.png" alt=""> </td>
+		<td> <img src = "images/post6.png" alt=""> </td>
 		<td>  <h3> <font size = 3> MarkerBot Announces the ‘Replicator 2x’  For the Experimental   </h3> <br> <h3>  <font size = 3 color = " grey"> 2 Days Ago  </h3>  </td>
 	</tr>
 </table>
-
-<table background = "Images/post7.png"  cellspacing="100" cellpadding="5" id = "big_table"> 
+<center>
+<table background = "images/post7.png"  cellspacing="100" cellpadding="5" id = "big_table"> 
 	<tr> <td width = 90% height = 30%> 
 		<div  id = "t4"> <font size = 6 color = "white">  </h3> Featured news </div>
 	</td> </tr> 	
 	<tr> <td> 
-		<h3 id = "d3"> <font color = "white" size = 50px>  Nokia offering customers printable STL phone cases for the Lumia 820 </h3> 
+		<h3 id = "d3"> <font color = "white">  Nokia offering customers printable STL phone cases for the Lumia 820 </h3> 
 	</td> </tr> 
 </table>
-
+</center>
 
 
 <table cellspacing="5" cellpadding="10"  width = 60%>
@@ -127,38 +135,40 @@
        <td width = 70%> <h3> <font color = "213cc0" size = 5px> Software </h3> </td>	   
     </tr>
 	<tr>
-	<td width = 70% id = "t2">
+	<td width = 70% class = "bottom">
 			<p id = "p1"> <b> DeltaMaker – The new kid on the block An Elegant 3D Printer and new wicked ass thing </b> <p>
-			<img src = "Images/post1.jpg" alt="" width = 100%> <br>
-			<center> <h3> <i> Product were inspired by  Behance's research of especially productive teams in the creative industry. Hundreds of inh3iduals and teams were interviewed, and Behance chronicled the work habits andd best practies of creative leaders.</i> </h3>  <p> <i> The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own... </i> </center></td>
+			<img src = "images/post1.jpg" alt="" width = 100%> <br>
+			<center> <p> <font size = 4> <i> Product were inspired by  Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits andd best practies of creative leaders. The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own... </p></i> </center></td>
 	</tr>
 </table>
 
 <table cellspacing="5" cellpadding="10"  width = 39%  valign = "top">
     <tr>
-      <td id = "t2"> <p> <b> DeltaMaker - The new kid on block An Elegant 3D printer </b> <p> 
-				<h3> <center> A new cheap ass 3D printer worth cheking out </center> </h3> 
-				<h3> <center> <font color = " grey"> 1 Day Ago </center> </h3> </td>
+      <td class = "t2"> <article data-genre = "Софт" data-year="1-2"class = "bottom"> <p> <font size = 5> <center> <b> Notepad++ всё ещё самая удобная прога для ВЭБов </b> </p> 
+				<h3>  Change my mind  </h3>
+				<h3>  <font color = " grey"> 2 Дня назад </center> </article>
+		</td>
     </tr>
     <tr>  
-		<td id = "t2"> <p> <b> Software Review: Autodesk Inventor Fusion for Mac </b> </p> 
-				<h3> <center> 3D Printing, 3D Software </center> </h3>
-				<h3> <center> <font color = " grey"> 2 Days Ago </center> </h3>
+		<td class = "t2"> <article data-genre = "Принтеры" data-year="1-2" class = "bottom"> <p> <font size = 5> <center> <b> Я не знаю, что смешного написать про принтеры </b> </p> 
+				<h3>  Грустно быть мной  </h3>
+				<h3>  <font color = " grey"> 1 День назад </center> </article>
         </td>
 	</tr>
 	<tr>  
-		<td id = "t2"> <p> <b> DeltaMaker - The new kid on block An Elegant 3D printer </b> <p> 
-        <h3> <center> A new cheap ass 3D printer worth cheking out </center> </h3> 
-				<h3> <center> <font color = " grey"> 4 Days Ago </center> </h3>
+		<td class = "t2"> <article data-genre = "Файлы" data-year="5-6" class = "bottom"> <p> <font size = 5> <center> <b> Накидываем вам миниатюр для DnD </b> </p> 
+				<h3>  Кушайте, да не обляпайтесь!  </h3>
+				<h3>  <font color = " grey"> 5 Дней назад </center> </article>
 				</td>
 	</tr>
 	<tr>  
-		<td id = "t2"> <p> <b> Software Review: Autodesk Inventor Fusion for Mac </b> </p> 
-				<h3> <center> 3D Printing, 3D Software </center> </h3> 
-					<h3> <center> <font color = " grey"> 6 Days Ago </center> </h3>
+		<td class = "t2"> <article data-genre = "Софт" data-year="3-4" class = "bottom"> <p> <font size = 5> <center> <b> Винда опять полетела из-за мирового сбоя </b> </p> 
+				<h3>  Хорошо быть пиратом  </h3>
+				<h3>  <font color = " grey"> 3 Дня назад </center> </article> </h3>
         </td>
 	</tr>
 </table>
+
 
 </div> </div>
 
@@ -168,6 +178,8 @@
 	
 </body>
 </html>
+
+
 
 <script>
 $(document).ready(function()

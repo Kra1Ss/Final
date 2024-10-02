@@ -5,21 +5,26 @@ div {font-size: 14pt;
 }
 
 #d3 {
-	display: inline-block;
+	display: inline;
 	position: relative;
 	top: -100px; 
+	right: 30px;
 	text-align: left;
+	font-size: 36pt;
 	
 	
 }
 
 #big_table {
 	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+
 }
 
 #t4 {
 	background-color: black;
-	width: 30%;
+	width: 20%;
 }
 
 .h3-little {
@@ -29,6 +34,7 @@ div {font-size: 14pt;
 .mew {
 	top: 30px;
 	display: inline;
+	
 }
 
 .container {
@@ -53,19 +59,40 @@ display: inline-block;
 //border: 1px solid grey;
 
 }
-#t2 {
-	border-bottom: 1px solid grey;
+.t2 {
+
+ table-layout: fixed;
+ 
 }
+
+
+.bottom {border-bottom: 1px solid grey;}
 
 #t1 {
 	background-color: black;
 }
+
+#mrya {	min-width: 39%; }
 
 
 #p1 {
 	font-size: 24px;
 	text-align: left;
 }
+
+.blue {
+	 width: 30%;
+	 background-color: #1ac7c3;
+	 padding: 1%;
+	 
+}
+
+#blue2 { 	width: 150px;
+			background-color: #1ac7c3;
+			padding: 1%; 
+}
+	
+
 
 #d1 {
 		margin-left: 3%;
@@ -78,7 +105,7 @@ display: inline-block;
 
 p {
 	font-size: 24px;
-	text-align: center;
+	text-align: left;
 	font-family: Georgia;
 }
 
@@ -102,3 +129,8 @@ p {
 
 
 }
+
+h3 {
+	font-family: Georgia;
+}
+
